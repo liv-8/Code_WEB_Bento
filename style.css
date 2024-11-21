@@ -1,3 +1,7 @@
+html{
+    color-scheme: light dark;
+}
+
 
 root{
 
@@ -51,3 +55,24 @@ root{
     --newsletter-items: light-dark(var(--newsletter-items-l), var(--newsletter-items-d));
 
 }
+
+
+
+.logo{
+    max-width: 48px;
+    height: auto;
+}
+
+.YoutTitre{
+    display : flex;
+    flex-direction: row;
+}
+
+
+.youtube{
+    background-color: var(--youtube-fond);
+    display : flex;
+    flex-direction: column;
+
+}
+
