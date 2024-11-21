@@ -1,0 +1,53 @@
+
+root{
+
+    /*  COULEURS    */
+
+    --fond-l : #E9ECEF;
+    --fond-d : #32363A;
+
+    --titre-fond-l: #FFFFFF;
+    --titre-fond-d: #545454;
+
+    --titre-l: #32363A;
+    --titre-d: #FFFFFF;
+
+    --listen1-l: #FFFFFF;
+    --listen1-d: #000000;
+
+    --spotify-fond-l: #1DB954;
+    --spotify-fond-d: #1DB954;
+
+    --spotify-items--l: #FFFFFF;
+    --spotify-items--d: #32363A;
+
+    --deezer-fond-l: #A238FF;
+    --deezer-fond-d: #000000;
+
+    --deezer-logo-l:#000000;
+    --deezer-logo-d: #A238FF;
+
+    --youtube-fond-l: #FF0000;
+    --youtube-fond-d: #C01C1C;
+
+    --newsletter-fond-l: #FFFFFF;
+    --newsletter-fond-d: #290060;
+
+    --newsletter-items-l: #290060;
+    --newsletter-items-d: #FFFFFF;
+
+    
+
+    --fond: light-dark(var(--fond-l), var(--fond-d));
+    --titre-fond: light-dark(var(--titre-fond-l), var(--titre-fond-d));
+    --titre: light-dark(var(--titre-l), var(--titre-d));
+    --listen1: light-dark(var(--listen1-l), var(--listen1-d));
+    --spotify-fond: light-dark(var(--spotify-fond-l), var(--spotify-fond-d));
+    --spotify-items: light-dark(var(--spotify-items--l), var(--spotify-items--d));
+    --deezer-fond: light-dark(var(--deezer-fond-l), var(--deezer-fond-d));
+    --deezer-logo: light-dark(var(--deezer-logo-l), var(--deezer-logo-d));
+    --youtube-fond: light-dark(var(--youtube-fond-l), var(--youtube-fond-d));
+    --newsletter-fond: light-dark(var(--newsletter-fond-l), var(--newsletter-fond-d));
+    --newsletter-items: light-dark(var(--newsletter-items-l), var(--newsletter-items-d));
+
+}
